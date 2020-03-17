@@ -1,6 +1,7 @@
 """ Sort String """
 def main():
-    """ Sort String """
+    """ Write a program to sort sequence of the input strings based on the summation of its characters unicode (using ord command).
+        While the unicode of uppercases have negative value, the unicode of lowercases have positive value. """
     data = input()
     data = data.split(",")
     dict_a = {}
